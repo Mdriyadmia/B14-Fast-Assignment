@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1551px;
+  height: 98px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 24px;
+  color: #575757;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  padding: 8px 28px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 80px;
+}
+.highlight {
+  font-weight: bold;
+  font-style: italic;
+}
+.code-connect p {
+}
