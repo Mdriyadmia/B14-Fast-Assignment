@@ -202,3 +202,175 @@ nav {
   margin-top: 30px;
   background-color: #2563eb;
 }
+
+/* seartn ai */
+.networking{
+  padding:100px 40px;
+  margin:100px 0;
+  border-radius:24px;
+  background:linear-gradient(135deg,#081326,#102a56,#1f4ed8);
+  color:#fff;
+  text-align:center;
+}
+
+.networking-title h2{
+  font-size:42px;
+  margin:18px 0;
+}
+
+.networking-title p{
+  max-width:650px;
+  margin:auto;
+  color:#dbeafe;
+}
+
+.badge{
+  display:inline-block;
+  background:rgba(255,255,255,.15);
+  padding:10px 22px;
+  border-radius:50px;
+  font-size:14px;
+}
+
+.network-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:25px;
+  margin-top:60px;
+}
+
+.network-card{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.15);
+  backdrop-filter:blur(12px);
+  border-radius:20px;
+  padding:35px 25px;
+  transition:.35s;
+}
+
+.network-card:hover{
+  transform:translateY(-10px);
+  background:rgba(255,255,255,.14);
+}
+
+.network-card i{
+  font-size:45px;
+  color:#60a5fa;
+  margin-bottom:20px;
+}
+
+.network-card h3{
+  margin-bottom:15px;
+}
+
+
+.network-card p{
+  color:#dbeafe;
+  line-height:1.7;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  margin:70px 0 50px;
+}
+
+.stats h3{
+  font-size:38px;
+  color:#60a5fa;
+}
+
+.stats span{
+  color:#dbeafe;
+}
+
+.network-btn{
+  display:inline-block;
+  text-decoration:none;
+  color:#fff;
+  background:#2563eb;
+  padding:16px 40px;
+  border-radius:12px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.network-btn:hover{
+  background:#1d4ed8;
+}
+
+.network-btn i{
+  margin-left:8px;
+}
+
+@media(max-width:992px){
+
+.network-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.stats{
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+}
+
+@media(max-width:576px){
+
+.networking{
+padding:70px 20px;
+}
+
+.networking-title h2{
+font-size:30px;
+}
+
+.network-grid{
+grid-template-columns:1fr;
+}
+
+.stats{
+grid-template-columns:1fr;
+}
+
+}
+/*  */
+.footer-parent{
+display: flex;
+justify-content: space-between; 
+align-items: center;
+padding: 20px 0;
+background-color: rgb(43, 0, 55);
+color: #ffffff;
+}
+.footer-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 170px;
+}
+
+.icon{
+  display: flex;
+  gap: 25px;
+}
+
+.social-item{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-item img{
+  width: 22px;
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
