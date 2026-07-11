@@ -128,12 +128,30 @@ nav {
 .code-connect-parent{
   margin-bottom: 30px;
 }
+.code-connect-parent h2{
+  font-size: 48px;
+  line-height: 1.5;
+}
+.code-connect-parent p{
+  color: #575757;
+  font-size: 16px;
+}
+
 
 .list-card {
   list-style: disc;
   padding-left: 20px;
   text-align: left;
   margin-top: 20px;
+  list-style-co;
+}
+
+.list-card li::marker {
+  color: #2563eb;
+}
+
+.pricing-card span{
+  color: #2563eb;
 }
 
 .pricing-card-parent {
@@ -162,7 +180,7 @@ nav {
 }
 .get-button {
   border: 1px solid #2563eb;
-  padding: 5px 28px;
+  padding: 10px 110px;
   border-radius: 8px;
   cursor: pointer;
   color: #2563eb;
@@ -177,7 +195,7 @@ nav {
 
 .active-button{
   border: 1px solid #2563eb;
-  padding: 5px 28px;
+  padding: 10px 110px;
   border-radius: 8px;
   cursor: pointer;
   color: #ffffff;
