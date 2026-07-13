@@ -63,10 +63,12 @@ nav {
   font-size: 80px;
   color: #ffffff;
 }
+
 .highlight {
   font-weight: bold;
   font-style: italic;
 }
+
 .code-connect p {
   max-width: 600px;
   margin: 20px auto;
@@ -76,6 +78,8 @@ nav {
   font-size: 22px;
   color: #ffffff;
 }
+
+
 .parent {
   text-align: center;
   display: block;
@@ -117,6 +121,7 @@ nav {
   line-height: 1.5;
   padding-left: 15px;
 }
+
 .meet-parent h3 {
   text-align: left;
   color: #0d1b2a;
@@ -143,7 +148,8 @@ nav {
   padding-left: 20px;
   text-align: left;
   margin-top: 20px;
-  list-style-co;
+  line-height: 2;
+  font-size: 21px;
 }
 
 .list-card li::marker {
@@ -158,6 +164,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
+
 }
 
 .pricing-card {
@@ -165,6 +172,12 @@ nav {
   border-radius: 8px;
   color: #0d1b2a;
   padding: 30px;
+  height: 444px;
+  width: 370.67px;
+}
+
+.per-person-parent h1{
+  font-size: 44px;
 }
 
 .per-person-parent {
@@ -184,8 +197,9 @@ nav {
   border-radius: 8px;
   cursor: pointer;
   color: #2563eb;
-  margin-top: 30px;
+  margin-top: 55px;
   background-color: #ffffff;
+
 
 }
 .active-card{
@@ -199,7 +213,7 @@ nav {
   border-radius: 8px;
   cursor: pointer;
   color: #ffffff;
-  margin-top: 30px;
+  margin-top: 55px;
   background-color: #2563eb;
 }
 
@@ -335,12 +349,9 @@ grid-template-columns:1fr;
 }
 
 }
-/*  */
+
+/* fotter */
 .footer-parent{
-/* display: flex; */
-/* justify-content: space-between;  */
-/* align-items: center; */
-/* padding: 20px 0; */
 background-color: rgb(43, 0, 55);
 color: #ffffff;
 }
@@ -352,11 +363,13 @@ color: #ffffff;
 
 .footer-logo img{
   width: 170px;
+  padding-left: 20px;
 }
 
 .icon{
   display: flex;
   gap: 25px;
+  padding-right: 30px;
 }
 
 .social-item{
@@ -369,8 +382,21 @@ color: #ffffff;
   width: 22px;
 }
 
-/* .footer-bottom{
+.footer-bottom{
   display: flex;
+  align-items:center;
   justify-content: space-between;
-  margin-top: 20px;
-} */
+  margin-top: 3px;
+}
+
+.footer-bottom span{
+  padding-left: 20px ;
+
+}
+.Privacy-parent{
+  padding-right: 15px;
+}
+
+.devconf-parent{
+  padding-left: 15px;
+}
